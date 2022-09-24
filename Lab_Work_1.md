@@ -24,7 +24,9 @@
 ### Написать программы "Helo World" на Python и Unity
 Прикрепил скриншоты в репозитории: "Hello_World_Py.png", "Hello_World_Unity.png"
 https://github.com/Little-hot-dog/RTF_Work/raw/Hello_World_Py.png
-https://github.com/Little-hot-dog/RTF_Work/raw/main/Hello_World_Py/image.png
+
+- https://github.com/Little-hot-dog/RTF_Work/raw/main/Hello_World_Py/image.png
+- ![alt text](http://url/to/Hello_World_Py.png)
 ## Задание 2
 ### Пошагово выполняю каждый пункт раздела "ход работы" с описанием и примерами реализации задач
 Ход работы:
