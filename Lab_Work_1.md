@@ -112,7 +112,10 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
+```py
+[0.91172039] [0.5837287] 1278.7424217414373
+```
+![](https://github.com/Little-hot-dog/RTF_Work/blob/main/%D1%88%D0%B0%D0%B3%203.png)
 ### Шаг_4 на четвертой итерации отображаются значения параметров, значения потерь, и эффекты визуализации
 ```py
 a,b = iterate(a,b,x,y,4)
@@ -122,7 +125,10 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
+```py
+[0.92212755] [0.58387449] 1251.7020616032517
+```
+![](https://github.com/Little-hot-dog/RTF_Work/blob/main/%D1%88%D0%B0%D0%B3%204.png)
 ### Шаг_5 пятая итерация показывает значение параметра, значение потерь, и эффект визуализации после итерации
 ```py
 a,b = iterate(a,b,x,y,5)
@@ -132,7 +138,10 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
+```py
+[0.93495371] [0.58405396] 1218.84456985552
+```
+![](https://github.com/Little-hot-dog/RTF_Work/blob/main/%D1%88%D0%B0%D0%B3%205.png)
 ### Шаг_6 10000-я итерация показывает значения параметров, значения потерь и визуализацию после итерации 
 ```py
 a,b = iterate(a,b,x,y,10000)
@@ -142,7 +151,10 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
+```py
+[1.74455547] [0.56478465] 190.49160221222198
+```
+![](https://github.com/Little-hot-dog/RTF_Work/blob/main/%D1%88%D0%B0%D0%B3%206.png)
 ## Задание 3
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
 
