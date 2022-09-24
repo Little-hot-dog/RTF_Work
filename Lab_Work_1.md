@@ -84,9 +84,9 @@ plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
 ```py
-[0.30242176]
-[0.56120982]
-[0.30694999] [0.5612756] 3435.3179868617844
+[0.89586207]
+[0.58350623]
+[0.89852595] [0.58354363] 1313.5139238614338
 ```
 ![](https://github.com/Little-hot-dog/RTF_Work/blob/main/%D1%88%D0%B0%D0%B3%201.png)
 
@@ -99,7 +99,10 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
+```py
+[0.90382864] [0.58361804] 1299.473940949766
+```
+![](https://github.com/Little-hot-dog/RTF_Work/blob/main/%D1%88%D0%B0%D0%B3%202.png)
 ### Шаг_3 третья итерация показывает значения параметров, значения потерь и визуализацию после итерации 
 ```py
 a,b = iterate(a,b,x,y,3)
