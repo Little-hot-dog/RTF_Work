@@ -83,7 +83,51 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
+```py
+#Шаг_2 на второй итерации отображаются значения параметров, значения потерь и эффекты визуализации после итерации
+a,b = iterate(a,b,x,y,2)
+prediction = model(a,b,x)
+loss = loss_function(a,b,x,y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+```
+```py
+#Шаг_3 третья итерация показывает значения параметров, значения потерь и визуализацию после итерации 
+a,b = iterate(a,b,x,y,3)
+prediction = model(a,b,x)
+loss = loss_function(a,b,x,y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+```
+```py
+#Шаг_4 на четвертой итерации отображаются значения параметров, значения потерь, и эффекты визуализации
+a,b = iterate(a,b,x,y,4)
+prediction = model(a,b,x)
+loss = loss_function(a,b,x,y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+```
+```py
+#Шаг_5 пятая итерация показывает значение параметра, значение потерь, и эффект визуализации после итерации
+a,b = iterate(a,b,x,y,5)
+prediction = model(a,b,x)
+loss = loss_function(a,b,x,y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+```
+```py
+#Шаг_6 10000-я итерация показывает значения параметров, значения потерь и визуализацию после итерации 
+a,b = iterate(a,b,x,y,10000)
+prediction = model(a,b,x)
+loss = loss_function(a,b,x,y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+```
 
 ## Задание 3
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
