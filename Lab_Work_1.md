@@ -67,9 +67,8 @@ def iterate(a,b,x,y,times):
 ```
 
 - Начинаю итериацию:
-
-```py
 #Шаг_1 инициализация и модель итеративной оптимизации
+```py
 a = np.random.rand(1)
 print(a)
 b = np.random.rand(1)
@@ -89,8 +88,8 @@ plt.plot(x,prediction)
 [0.30694999] [0.5612756] 3435.3179868617844
 ```
 
-```py
 #Шаг_2 на второй итерации отображаются значения параметров, значения потерь и эффекты визуализации после итерации
+```py
 a,b = iterate(a,b,x,y,2)
 prediction = model(a,b,x)
 loss = loss_function(a,b,x,y)
@@ -98,8 +97,9 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-```py
+
 #Шаг_3 третья итерация показывает значения параметров, значения потерь и визуализацию после итерации 
+```py
 a,b = iterate(a,b,x,y,3)
 prediction = model(a,b,x)
 loss = loss_function(a,b,x,y)
@@ -107,8 +107,9 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-```py
+
 #Шаг_4 на четвертой итерации отображаются значения параметров, значения потерь, и эффекты визуализации
+```py
 a,b = iterate(a,b,x,y,4)
 prediction = model(a,b,x)
 loss = loss_function(a,b,x,y)
@@ -116,8 +117,9 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-```py
+
 #Шаг_5 пятая итерация показывает значение параметра, значение потерь, и эффект визуализации после итерации
+```py
 a,b = iterate(a,b,x,y,5)
 prediction = model(a,b,x)
 loss = loss_function(a,b,x,y)
@@ -125,8 +127,9 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-```py
+
 #Шаг_6 10000-я итерация показывает значения параметров, значения потерь и визуализацию после итерации 
+```py
 a,b = iterate(a,b,x,y,10000)
 prediction = model(a,b,x)
 loss = loss_function(a,b,x,y)
